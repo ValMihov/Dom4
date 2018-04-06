@@ -4,22 +4,38 @@
     <meta charset="UTF-8"/>
 </head>    
 <body> 
+    <!-- Тук също можеш да поставиш главната навигация, както я беше направил във предните повечето от страниците. -->
     <img src="Logo.png"/>
     <hr/>
     <br/>
     <h1> Contact us </h1>   
     <br/>
    <form>
-       Name: <input type="text"><br> 
+        <!-- Препоръчително е да слагаш наименованията на <input> таговете да са във <label> -->
+        <label>Name:</label>
+        <input type="text"><br> 
     <br/>
-       Email: <input type="text"><br>
+       <label>Email: </label>
+       <input type="text"><br>
     <br/>
-       Male <input type="radio" name="sex"/> Female <input type="radio" name="sex"/>
+       <label>Male</label> 
+       <input type="radio" name="sex"/> 
+       
+       <label>Female </label>
+       <input type="radio" name="sex"/>
+       
        <h2> Your questions:</h2>
        <input type="text"/>
     <br/>
        <p>Preferred ways of communication </p>
-       Email: <input type="checkbox"/> Phone: <input type="checkbox"/> Post: <input type="checkbox"/>
+       <label>Email: </label>
+       <input type="checkbox"/>
+
+       <label>Phone: </label>
+       <input type="checkbox"/>
+
+       <label> Post: </label>
+       <input type="checkbox"/>
     <br/>
     <br/>
     <br/>
